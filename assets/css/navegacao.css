@@ -1,0 +1,16 @@
+.menu {
+ display: flex;
+ margin: 0 auto;
+
+ width: 60vw;
+}
+
+.menu_navegacao {
+
+ color: var(--cor-navegacao);
+ display: flex;
+ padding: 3rem 0 0 2.8rem;
+ gap: 4rem;
+ font-family: var(--font-principal);
+
+}

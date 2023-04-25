@@ -1,0 +1,26 @@
+@import url(../css/navegacao.css);
+@import url(../css/conteudo.css);
+@import url(../css/rodape.css);
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+
+:root {
+
+ --background: #000000;
+ --cor-navegacao: #22D4FD;
+ --font-principal: 'Montserrat', sans-serif;
+ --branco: #FFFFFF;
+
+}
+
+body {
+
+ background-color: var(--background);
+ overflow: hidden;
+
+}

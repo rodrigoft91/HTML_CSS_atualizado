@@ -14,3 +14,34 @@
  font-family: var(--font-principal);
 
 }
+
+@media (max-width: 1200px) {
+
+ .menu {
+  justify-content: center;
+ }
+
+ .menu_navegacao {
+  font-size: 1rem;
+  gap: 2.5rem;
+  padding: 2rem 0 0 0;
+ }
+
+
+}
+
+@media (max-width: 420px) {
+
+ .menu {
+  justify-content: center;
+ }
+
+ .menu_navegacao {
+  font-size: 1rem;
+  gap: 2.5rem;
+  padding: 2rem 0 0 0;
+ }
+
+
+
+}

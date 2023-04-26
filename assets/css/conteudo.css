@@ -2,8 +2,7 @@
  display: flex;
  justify-content: space-around;
  width: 60vw;
- height: 100vh;
- gap: 3rem;
+ gap: 4rem;
  margin: 0 auto;
 
 
@@ -13,7 +12,7 @@
  display: flex;
  flex-direction: column;
  gap: 2rem;
- width: 25vw;
+ width: 50%;
 
 }
 
@@ -23,7 +22,7 @@
  width: 25vw;
  padding: 6rem 0 0 0;
  font-family: 'Krona One', sans-serif;
- font-size: 1.5rem;
+ font-size: 1.75rem;
  line-height: 2rem;
 }
 
@@ -50,7 +49,7 @@
 
 }
 
-.redes_titulo {
+.conteudo_pagina--subtitulo {
 
  font-size: 1.2rem;
  letter-spacing: 0.2rem;
@@ -65,31 +64,95 @@
 
 }
 
-.redes_sociais--borda {
+.redes_sociais--link {
 
  border: 1px solid var(--cor-navegacao);
- padding: 0.8rem 2.5rem;
+ padding: 0.8rem 5rem;
  display: flex;
  gap: 1rem;
  border-radius: 0.5rem;
-
-}
-
-.redes_sociais--borda:hover {
  color: var(--branco);
- transition: 0.70s;
+
 }
 
 .conteudo_pagina--foto {
 
  display: flex;
+ justify-content: center;
 
 }
 
 .conteudo_foto {
 
- width: 20vw;
- height: 50vh;
+ width: 75%;
  padding: 6rem 0 0 0;
+
+}
+
+@media (max-width: 1200px) {
+
+ .conteudo_pagina {
+  flex-direction: column-reverse;
+  gap: 2rem;
+ }
+
+ .conteudo_pagina--texto {
+
+  width: 100%;
+
+ }
+
+ .conteudo_pagina--titulo {
+  width: 100%;
+  padding: 0;
+ }
+
+ .conteudo_foto {
+  width: 75%;
+  padding: 2.5rem 0 2rem 0;
+
+ }
+
+}
+
+@media (max-width: 480px) {
+
+ .conteudo_pagina {
+  width: 90%;
+  gap: 2rem;
+ }
+
+ .conteudo_pagina--titulo {
+
+  font-size: 1.3rem;
+
+ }
+
+ .conteudo_foto {
+
+  padding: 2rem 0 2rem 0;
+ }
+
+
+}
+
+@media (max-width: 420px) {
+
+ .conteudo_pagina {
+  width: 90%;
+  gap: 2rem;
+ }
+
+ .conteudo_pagina--titulo {
+
+  font-size: 1.3rem;
+
+ }
+
+ .conteudo_foto {
+
+  padding: 2rem 0 2rem 0;
+ }
+
 
 }

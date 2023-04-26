@@ -1,9 +1,10 @@
 .rodape {
  background-color: var(--cor-navegacao);
- position: absolute;
- bottom: 0;
+ /* position: absolute;
+ bottom: 0; */
  width: 100vw;
  text-align: center;
+ margin: 3rem 0 0 0;
 }
 
 .rodape_texto {

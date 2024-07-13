@@ -16,13 +16,24 @@
 
 }
 
+
 .conteudo_pagina--titulo {
 
   color: var(--branco);
   width: 25vw;
-  padding: 6rem 0 0 0;
+  padding: 3rem 0 0 0;
   font-family: 'Krona One', sans-serif;
   font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.conteudo_pagina--titulo2 {
+
+  color: var(--branco);
+  width: 25vw;
+  padding: 2rem 0 0 0;
+  font-family: 'Krona One', sans-serif;
+  font-size: 1.20rem;
   line-height: 2rem;
 }
 
@@ -35,7 +46,7 @@
   color: var(--branco);
   font-family: var(--font-principal);
   line-height: 1.2rem;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .conteudo_pagina--redes {

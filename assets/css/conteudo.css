@@ -1,36 +1,38 @@
 .conteudo_pagina {
   display: flex;
   justify-content: space-around;
-  width: 60vw;
-  gap: 4rem;
+  width: 80vw;
+  height: 85vh;
+  gap: 1rem;
   margin: 0 auto;
-
-
 }
 
 .conteudo_pagina--texto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2rem;
-  width: 50%;
+  width: 40vw;
+  height: 90vh;
 
 }
-
 
 .conteudo_pagina--titulo {
 
   color: var(--branco);
-  width: 25vw;
-  padding: 3rem 0 0 0;
+  width: 40vw;
   font-family: 'Krona One', sans-serif;
   font-size: 1.75rem;
   line-height: 2rem;
+  text-align: center;
 }
 
 .conteudo_pagina--titulo2 {
 
+  display: flex;
+  justify-content: center;
   color: var(--branco);
-  width: 25vw;
+  width: 40vw;
   padding: 2rem 0 0 0;
   font-family: 'Krona One', sans-serif;
   font-size: 1.20rem;
@@ -39,6 +41,10 @@
 
 .texto_azul {
   color: var(--cor-navegacao);
+}
+
+.texto_red {
+  color: var(--cor-navegacaored);
 }
 
 .conteudo_pagina--paragrafo {
@@ -96,13 +102,15 @@
 
   display: flex;
   justify-content: center;
+  align-items: center;
+
 
 }
 
 .conteudo_foto {
 
-  width: 75%;
-  padding: 6rem 0 0 0;
+  width: 30vw;
+  height: 50vh;
 
 }
 

@@ -1,7 +1,8 @@
 .menu {
   display: flex;
+  justify-content: end;
   margin: 0 auto;
-  width: 60vw;
+  width: 70vw;
 }
 
 .menu_navegacao {
